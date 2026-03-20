@@ -20,6 +20,8 @@ public class Elevador {
         } else if (andarAtual < totalAndares) {
             andarAtual++;
             System.out.println("Subiu para " + andarAtual);
+        } else {
+            System.out.println("Já está no último andar!");
         }
     }
 
@@ -29,6 +31,8 @@ public class Elevador {
         } else if (andarAtual > 0) {
             andarAtual--;
             System.out.println("Desceu para " + andarAtual);
+        } else {
+            System.out.println("Já está no térreo!");
         }
     }
 
